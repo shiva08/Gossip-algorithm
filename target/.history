@@ -1,0 +1,84 @@
+sbt compile
+compile
+run-main 3 full gossip
+run-main gossip 3 full gossip
+run-main 3 full gossip
+run-main gossip 3 full gossip
+compile
+run-main gossip 3 full gossip
+run-main gossip 3 full pushsum
+run-main gossip 10 full pushsum
+compile hui.scala
+exit
+compile
+run-main project2 10 full pushsum
+compile
+run-main gossip 10 full pushsum
+compile
+run-main project2 10 full pushsum
+run-main project2 100 full pushsum
+run-main project2 500 full pushsum
+run-main project2 1000 full pushsum
+run-main project2 2000 full pushsum
+run-main project2 5000 full pushsum
+compile
+run-main project2 3000 full pushsum
+run-main project2 4000 full pushsum
+run-main project2 3500 full pushsum
+run-main project2 3000 full pushsum
+run-main project2 3200 full pushsum
+run-main project2 3500 full pushsum
+run-main project2 1000 line pushsum
+run-main project2 21000 line pushsum
+run-main project2 31000 line pushsum
+run-main project2 51000 line pushsum
+run-main project2 100000 line pushsum
+run-main project2 200000 line pushsum
+run-main project2 2500 full pushsum
+run-main project2 1500 full pushsum
+run-main project2 1000 line pushsum
+run-main project2 500 line pushsum
+run-main project2 1000 line pushsum
+run-main project2 500 line pushsum
+run-main project2 2000 line pushsum
+run-main project2 2500 line pushsum
+run-main project2 3000 line pushsum
+run-main project2 4000 line pushsum
+run-main project2 10000 line pushsum
+run-main project2 50000 line pushsum
+run-main project2 500 3D pushsum
+run-main project2 1000 3D pushsum
+run-main project2 1500 3D pushsum
+run-main project2 2000 3D pushsum
+run-main project2 2500 3D pushsum
+run-main project2 3000 3D pushsum
+run-main project2 10000 3D pushsum
+run-main project2 50000 3D pushsum
+run-main project2 50000 imp3D pushsum
+run-main project2 10000 imp3D pushsum
+run-main project2 3000 imp3D pushsum
+run-main project2 2500 imp3D pushsum
+run-main project2 2000 imp3D pushsum
+run-main project2 1500 imp3D pushsum
+run-main project2 1000 imp3D pushsum
+run-main project2 50000 line pushsum
+run-main project2 10000 line pushsum
+run-main project2 500 full gossip
+run-main project2 1000 full gossip
+run-main project2 500 full gossip
+run-main project2 1500 full gossip
+run-main project2 2000 full gossip
+run-main project2 2000 line gossip
+run-main project2 500 line gossip
+run-main project2 1000 line gossip
+run-main project2 1500 line gossip
+run-main project2 3000 line gossip
+run-main project2 30000 line gossip
+run-main project2 50000 line gossip
+run-main project2 1000 3D gossip
+run-main project2 2000 3D gossip
+run-main project2 3000 3D gossip
+run-main project2 10000 3D gossip
+run-main project2 50000 3D gossip
+run-main project2 10000 imp3D gossip
+compile
