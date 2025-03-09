@@ -12,9 +12,9 @@ There is a MinionHandler-Actor who handles Minions, for monitoring running time 
 Based on the input Algorithm, MinionHandler will trigger the gossip or pushsum communication on the input topology by randomly picking one of the Minion-actor.
 
 
-Full Network : Every actor is a neighboor of all other actors. Every actor can talk directly to any other actor.
-3D Grid: Actors form a 3D grid. The actors can only talk to the grid neighbours.
-Line: Actors are arranged in a line. 
+Full Network : Every actor is a neighboor of all other actors. Every actor can talk directly to any other actor.<br>
+3D Grid: Actors form a 3D grid. The actors can only talk to the grid neighbours.<br>
+Line: Actors are arranged in a line. <br>
 Imperfect 3D Grid: Grid arrangement but one random other neighbour is selected from the list of all actors (4+1 neighboors).
 
 Execution: 
